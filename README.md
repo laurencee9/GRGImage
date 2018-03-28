@@ -3,6 +3,10 @@
 
 C++ implementation of a network converter from JPG images.
 
+![][./examples/images/zebra.jpg]
+
+![][./examples/networks/zebra.png]
+
 ## Table of content
 
 
