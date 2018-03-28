@@ -1,0 +1,35 @@
+# Pass the arguments by command line
+if (!exists("dat")) dat='default.dat'
+if (!exists("o")) o='./output.png'
+if (!exists("w")) w=1200
+if (!exists("h")) h=768
+if (!exists("r")) r=1
+if (!exists("lw")) lw=2
+if (!exists("bc")) bc='white'
+
+
+if (exists("png")) \
+	set terminal png size w*r,h*r enhanced background rgb bc; \
+	set output o.".png";
+
+if (exists("pdf")) \
+	set terminal pdf size w,h enhanced background rgb bc; \
+	set output o.".pdf";
+
+
+
+# Separator 
+set datafile separator ","
+
+# RGB function
+rgb(r,g,b) = 65536 * int(r) + 256 * int(g) + int(b)
+
+set xrange [0:w]
+set yrange [0:h]
+
+unset border
+unset xtics
+unset ytics
+set nokey 
+
+plot dat using 1:2:(rgb($3,$4,$5)) with lines ls 1 lw lw lc rgb variable;
