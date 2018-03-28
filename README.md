@@ -66,7 +66,7 @@ For the glasses example, we run:
 
 ### Plotting
 
-A Gnuplot script does the plotting for us. In the past, I used matplotlib but it was very slow (2-3 minutes for plotting). I also use a `d3.js` script to show the images in the browser that I could release if requested.
+A Gnuplot script does the plotting for us. In the past, I used matplotlib but it was very slow (2-3 minutes for plotting). I also used a `d3.js` script to show the images in the browser that I could release if requested.
 
 The Gnuplot script takes some parameters
 
@@ -86,7 +86,6 @@ An example is
 ```
 gnuplot -e "dat='./data/glasses_width1200_height748.dat'; o='./networks/glasses';w=1200;h=748;r=1;png=1;lw=1.8" ../src/GNU_plot.gpi
 ```
-
 
 
 
