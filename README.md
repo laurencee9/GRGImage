@@ -7,9 +7,7 @@ C++ implementation of a network converter from JPG images.
 
 ![](./examples/networks/zebra_small.png)
 
-## Table of content
-
-
+[Other examples](http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html)
 
 ## Usage
 
