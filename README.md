@@ -3,9 +3,9 @@
 
 C++ implementation of a network converter from JPG images.
 
-![](./examples/images/zebra.jpg | width=100) 
+![](./examples/images/zebra_small.jpg) 
 
-![](./examples/networks/zebra.png | width=100)
+![](./examples/networks/zebra_small.png)
 
 ## Table of content
 
