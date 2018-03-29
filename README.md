@@ -21,7 +21,13 @@ cmake ../src
 make
 ```
 
-`CImg` can be tricky to import with `cmake` depending on your machine. The current `CMakeLists.txt` has been tested on MacOSX 10.13.1.
+`CImg` can be tricky to import with `cmake` depending on your machine. The current `CMakeLists.txt` has been tested on MacOSX 10.13.1. You may need to install the following packages:
+
+```
+apt-get install cmake libx11-dev libjpeg-dev cimg-dev gnuplot
+```
+
+`CImg` can be tricky to import with `cmake` depending on your machine. The current `CMakeLists.txt` has been tested on MacOSX 10.13.1. You may need to install the following packages
 
 
 ### Creating networks
