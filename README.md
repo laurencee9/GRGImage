@@ -48,7 +48,7 @@ to obtain a complete list of the parameters.
 | --outputPath (-o)    | String | Path to dump the output data (add prefix of data output) |
 | --number_nodes (-N) | Int | Number of nodes in the resulting network|
 | --degree (-d) | Int | Maximum degree of a node (usually 3 or 4)|
-| --constrast | Float | Contrast parameter between -infinity to infinity |
+| --constrast | Float | Contrast parameter between -infinity to infinity. If positive, darker pixels will have a larger weight than lighter pixels. If you have a dark background, I suggest to use negative constrats.  |
 | --neigh (-n) | Int | maximum number of neighbor pixels that a node can connect to (for faster convergence) |
 | --help || Show the parameters list|
 |--transform | | Required to transform the network |
